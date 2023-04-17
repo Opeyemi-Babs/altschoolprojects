@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        h1 {
+            text-align: center;
+            color: blue;
+        }
+        body {
+            background-color: aqua;
+            
+        }
+        form {
+            padding-top: 3pc;
+            
+        }
+        button:hover {
+            color: red;
+        }
+        a:hover {
+            color: red;
+        }
+        nav {  
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap
+        }
+        p {
+            text-align: center;
+        }
+        button {
+            color: green;
+            margin-top: 3pc;
+            margin-bottom: 5pc;
+        }
+        section {
+            border: 5px groove aquamarine;
+            width: 35pc;
+            margin-left: 25pc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="http://127.0.0.1:5500/index5.html"target="_blank">ABOUT&nbsp;ME</a>
+            <a href="http://127.0.0.1:5500/index6.html" >CONTACT&nbsp;ME</a>
+            <a href="http://127.0.0.1:5500/index7.html" target="_blank">REGISTER&nbsp;HERE</a>
+            <a href="http://127.0.0.1:5500/index8.html" target="_blank">LOGIN</a>
+            <a href="http://127.0.0.1:5500/index9.html" target="_blank">CALCULATOR</a>
+    </nav>
+    </header>
+    <hr>
+    <main>
+        <h1>CONTACT ME</h1>
+        <section>
+            <form class="CONTACT">
+                <label for="name">NAME</label>
+                <input type="text" style="width: 30pc;" required>
+            </form>
+            <form class="CONTACT">
+                <label for="email">EMAIL</label>
+                <input type="email" style="width: 30pc;" required>
+            </form>
+            <form class="CONTACT">
+                <label for="message" >MESSAGE</label>
+                <textarea name="message" id="message" cols="50" rows="10">Type your message here</textarea>
+            </form>
+            <form class="CONTACT">
+                <label for="priority">PRIORITY</label>
+                <select>
+                    <option>high</option>
+                    <option>low</option>
+                </select>
+            </form>
+       
+        <p>
+            <button style="padding: 15px; ">SUBMIT</button>
+        </p>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <nav>
+            <span>08161645755</span>
+            <span>&copy; babatundeopeyemiyusuf@gmail.com </span>
+            <time datetime="dd-mm-yyyy">20-10-2022</time>
+        </nav>
+    </footer>
+
+</body>
+</html>

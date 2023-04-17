@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+    color: orangered;
+  }
+
+h2 {
+    text-align: center;
+    color: royalblue;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid chartreuse;
+    text-align: center;
+    width: 70%;
+    height: 10pc;
+    background-color: paleturquoise;
+}
+
+tr th {
+  border: 1px solid limegreen;
+}
+ 
